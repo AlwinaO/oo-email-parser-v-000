@@ -11,7 +11,10 @@ def EmailParser
 
   end
 
-  def parse
+  def parse(emails)
+    emails.each do
+      
+    end
 
   end
 
