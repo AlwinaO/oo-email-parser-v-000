@@ -11,10 +11,10 @@ def EmailParser
 
   end
 
-  def parse(emails)
-    emails.each do
-      
-    end
+  def parse
+    emails.split.map do |email|
+      email.split(',')
+    end.flatten.uniq 
 
   end
 
